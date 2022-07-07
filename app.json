@@ -1,4 +1,24 @@
 {
   "name": "hotelBooking",
-  "displayName": "hotelBooking"
+  "slug": "hotelBooking",
+  "version": "1.0.1",
+  "orientation": "portrait",
+  "icon": "./assets/HoodzPronos.png",
+  "splash": {
+    "image": "./assets/HoodzPronos.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": ["**/*"],
+  "ios": {
+    "bundleIdentifier": "com.hoodzs.hoodzssapp",
+    "buildNumber": "1.0.0"
+  },
+  "android": {
+    "package": "com.hoodzs.hoodzsspp",
+    "versionCode": 2
+  }
 }
